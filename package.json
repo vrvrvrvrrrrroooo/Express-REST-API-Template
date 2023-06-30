@@ -5,6 +5,7 @@
   "scripts": {
     "start": "NODE_ENV=production node ./src/bin/www",
     "dev": "NODE_ENV=development nodemon ./src/bin/www",
+    "swagger-autogen": "node swagger.js",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "lint": "eslint .",
