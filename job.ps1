@@ -1,1 +1,1 @@
-node run swagger-gen.js
+npm run swagger-autogen
